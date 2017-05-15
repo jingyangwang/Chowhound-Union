@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/detail_bg"
+    android:orientation="vertical"
+    android:layout_marginTop="20dip"
+    android:layout_marginLeft="10dip"
+    android:layout_marginRight="10dip"
+   >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:layout_marginLeft="10dip"
+        android:src="@drawable/chihuo" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_marginTop="10dip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/listline" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:text="淮扬狮子头"
+        android:textColor="#000000"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ff0000"
+        android:layout_marginLeft="15dip"
+        android:textSize="12sp"
+        android:text="苏菜" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:text="详细制作方法"
+        android:textSize="18sp"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" 
+
+ 淮扬狮子头的做法步骤\n
+1、主要材料：猪肉500g、虾皮100g。\n
+2、主要调料：胡椒粉、鸡粉、姜末。\n
+3、把猪肉和虾皮放在一起剁成馅料。\n
+4、加料酒、胡椒粉、鸡粉、姜末、盐、糖调味后，加淀粉。\n
+5、根据肉馅的含水量，可以加少量的水，将其拌匀。\n
+6、然后要反复的摔打馅料，将馅料里的空气排除。团成4个“狮子头”生坯。\n
+7、锅中加清水，烧至90°左右的时候，放入“狮子头”生坯。\n
+8、烧开后，用小火煨制60分钟左右。（我用的是电压力锅，按肉类键即可自动完成）。\n
+9、煨制好以后，在汤汁中加适量的盐和味精调味。\n
+10、碗中放入青菜、再次。\n
+           盛入“狮子头”，浇入原汤即成。\n
+
+        " 
+        android:textColor="#000000"
+        android:textSize="15sp"
+        />
+
+      <ImageView   android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/line_d_2" />
+
+       <ImageView android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/line_d_1" />
+ 
+       <ImageButton  android:id="@+id/bus_info_detail_but"
+        android:layout_width="fill_parent"
+        android:layout_height="40dip" 
+        android:background="#00000000"
+        android:src="@drawable/arrow_down" />
+        <TextView  android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="10dip"
+	        android:layout_marginBottom="10dip"
+	        android:text="@string/detail_explain" 
+	        android:textColor="#000000"
+	        android:textSize="15sp" 
+	        android:id="@+id/bus_info_explor"
+	        android:visibility="gone"  />
+     
+</LinearLayout>

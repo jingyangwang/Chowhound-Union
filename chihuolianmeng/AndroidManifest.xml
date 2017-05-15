@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.nian.preferential"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="10" />
+
+    <application
+        android:icon="@drawable/logo"
+        android:label="@string/app_name" >
+        <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="7uwUH0wIDtU4htOl2qviog0y" />
+        <!-- android:value="qyqa7Al27d3mXWh0AVVh8fCh" -->
+
+        <activity
+            android:name="com.nian.preferential.MissPreferentialActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.nian.preferential.ui.TabShow"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity android:name="com.jing.search.PoiSerch" />
+        <activity android:name="com.spoken.Btxl_spoken" />
+        <activity android:name="com.spoken.Btxl_Send" />
+        <activity android:name="com.spoken.Cprz_spoken" />
+        <activity android:name="com.spoken.Cprz_Send" />
+        <activity android:name="com.spoken.Ftq_spoken" />
+        <activity android:name="com.spoken.Ftq_Send" />
+        <activity android:name="com.spoken.Gbjd_spoken" />
+        <activity android:name="com.spoken.Gbjd_Send" />
+        <activity android:name="com.spoken.Hyszt_spoken" />
+        <activity android:name="com.spoken.Hyszt_Send" />
+        <activity android:name="com.spoken.Jhj_spoken" />
+        <activity android:name="com.spoken.Jhj_Send" />
+        <activity android:name="com.spoken.Mlzj_spoken" />
+        <activity android:name="com.spoken.Mlzj_Send" />
+        <activity android:name="com.spoken.Tcy_spoken" />
+        <activity android:name="com.spoken.Tcy_Send" />
+        <activity android:name="com.spoken.Tjmx_spoken" />
+        <activity android:name="com.spoken.Tjmx_Send" />
+        <activity android:name="com.spoken.wcj_spoken" />
+        <activity android:name="com.spoken.wcj_Send" />
+        <activity android:name="com.spoken.Xhcy_spoken" />
+        <activity android:name="com.spoken.Xhcy_Send" />
+        <activity android:name="com.spoken.Yxrs_spoken" />
+        <activity android:name="com.spoken.Yxrs_Send" />
+        <activity android:name="com.jing.search.Search" />
+        <activity android:name="com.nian.preferential.HomeActivity" />
+        <activity android:name="com.nian.preferential.NearByAcitivity" />
+        <activity android:name="com.nian.preferential.fenlei" />
+        <activity android:name="com.nian.preferential.ProgressBar1" />
+        <activity android:name="com.nian.preferential.Kong" />
+        <activity android:name="com.nian.preferential.NearByAcitivity11" />
+        <activity android:name="com.nian.preferential.SortActivity" />
+        <activity android:name="com.nian.preferential.MoreActivity" />
+        <activity android:name="com.nian.preferential.smenu.ChooseCity" />
+        <activity android:name="com.nian.preferential.smenu.TwoDimensionalCode" />
+        <activity android:name="com.nian.preferential.smenu.BusinessInformation" />
+        <activity android:name="com.nian.preferential.smenu.ChooseMer" />
+        <activity android:name="com.nian.preferential.smenu.fenlei" />
+        <activity android:name="com.nian.preferential.smenu.Market" />
+        <activity android:name="com.nian.preferential.smenu.RecreationandEntertainment" />
+        <activity android:name="com.nian.preferential.smenu.Lifeservice" />
+        <activity
+            android:name="com.nian.preferential.Xihucuyu"
+            android:label="@string/title_activity_xihucuyu" >
+        </activity>
+        <activity
+            android:name="com.nian.preferential.smenu.BusinessInformation_btxl"
+            android:label="@string/title_activity_xihucuyu" >
+        </activity>
+        <activity
+            android:name="com.nian.preferential.smenu.BusinessInformation_cprz"
+            android:label="@string/title_activity_xihucuyu" >
+        </activity>
+        <activity
+            android:name="com.nian.preferential.smenu.BusinessInformation_ftq"
+            android:label="@string/title_activity_xihucuyu" >
+        </activity>
+        <activity
+            android:name="com.nian.preferential.smenu.BusinessInformation_gbjd"
+            android:label="@string/title_activity_xihucuyu" >
+        </activity>
+        <activity
+            android:name="com.nian.preferential.smenu.BusinessInformation_hyszt"
+            android:label="@string/title_activity_xihucuyu" >
+        </activity>
+        <activity
+            android:name="com.nian.preferential.smenu.BusinessInformation_jhj"
+            android:label="@string/title_activity_xihucuyu" >
+        </activity>
+        <activity
+            android:name="com.nian.preferential.smenu.BusinessInformation_mlzj"
+            android:label="@string/title_activity_xihucuyu" >
+        </activity>
+        <activity
+            android:name="com.nian.preferential.smenu.BusinessInformation_tcy"
+            android:label="@string/title_activity_xihucuyu" >
+        </activity>
+        <activity
+            android:name="com.nian.preferential.smenu.BusinessInformation_tjlx"
+            android:label="@string/title_activity_xihucuyu" >
+        </activity>
+        <activity
+            android:name="com.nian.preferential.smenu.BusinessInformation_wcj"
+            android:label="@string/title_activity_xihucuyu" >
+        </activity>
+        <activity
+            android:name="com.nian.preferential.smenu.BusinessInformation_xhcy"
+            android:label="@string/title_activity_xihucuyu" >
+        </activity>
+        <activity
+            android:name="com.nian.preferential.smenu.BusinessInformation_yxrs"
+            android:label="@string/title_activity_xihucuyu" >
+        </activity>
+        <activity
+            android:name="com.search.map.PoiSearchActivity_ChessRoom"
+            android:label="@string/title_activity_xihucuyu" >
+        </activity>
+        <activity
+            android:name="com.search.map.PoiSearchActivity_Gymnasium"
+            android:label="@string/title_activity_xihucuyu" >
+        </activity>
+        <activity
+            android:name="com.search.map.PoiSearchActivity_Natatorium"
+            android:label="@string/title_activity_xihucuyu" >
+        </activity>
+        <activity
+            android:name="com.search.map.PoiSearchActivity_Bar"
+            android:label="@string/title_activity_xihucuyu" >
+        </activity>
+        <activity
+            android:name="com.search.map.PoiSearchActivity_Massageroom"
+            android:label="@string/title_activity_xihucuyu" >
+        </activity>
+        <activity
+            android:name="com.search.map.PoiSearchActivity_ATM"
+            android:label="@string/title_activity_xihucuyu" >
+        </activity>
+        <activity
+            android:name="com.search.map.PoiSearchActivity_Hospital"
+            android:label="@string/title_activity_xihucuyu" >
+        </activity>
+        <activity
+            android:name="com.search.map.PoiSearchActivity_PoliceStation"
+            android:label="@string/title_activity_xihucuyu" >
+        </activity>
+        <activity
+            android:name="com.search.map.PoiSearchActivity"
+            android:label="@string/title_activity_xihucuyu" >
+        </activity>
+        <activity
+            android:name="com.search.map.PoiSearchActivity_bank"
+            android:label="@string/title_activity_xihucuyu" >
+        </activity>
+        <activity
+            android:name="com.search.map.PoiSearchActivity_Beautyshop"
+            android:label="@string/title_activity_xihucuyu" >
+        </activity>
+        <activity
+            android:name="com.search.map.PoiSearchActivity_Deliciousfood"
+            android:label="@string/title_activity_xihucuyu" >
+        </activity>
+        <activity
+            android:name="com.search.map.PoiSearchActivity_Market"
+            android:label="@string/title_activity_xihucuyu" >
+        </activity>
+        <activity
+            android:name="com.search.map.PoiSearchActivity_Exercise"
+            android:label="@string/title_activity_xihucuyu" >
+        </activity>
+        <activity
+            android:name="com.search.map.PoiSearchActivity_KTV"
+            android:label="@string/title_activity_xihucuyu" >
+        </activity>
+        <activity
+            android:name="com.search.map.PoiSearchActivity_Realestate"
+            android:label="@string/title_activity_xihucuyu" >
+        </activity>
+        <activity
+            android:name="com.search.map.PoiSearchActivity_Park"
+            android:label="@string/title_activity_xihucuyu" >
+        </activity>
+        <activity
+            android:name="com.search.map.PoiSearchActivity_Square"
+            android:label="@string/title_activity_xihucuyu" >
+        </activity>
+        <activity
+            android:name="com.search.map.PoiSearchActivity_School"
+            android:label="@string/title_activity_xihucuyu" >
+        </activity>
+        <activity
+            android:name="com.search.map.PoiSearchActivity_Governmentoffice"
+            android:label="@string/title_activity_xihucuyu" >
+        </activity>
+        <activity
+            android:name="com.search.map.PoiSearchActivity_Agritainment"
+            android:label="@string/title_activity_xihucuyu" >
+        </activity>
+        <activity
+            android:name="com.search.map.PoiSearchActivity_Barbecue"
+            android:label="@string/title_activity_xihucuyu" >
+        </activity>
+        <activity
+            android:name="com.search.map.PoiSearchActivity_Buffet"
+            android:label="@string/title_activity_xihucuyu" >
+        </activity>
+        <activity
+            android:name="com.search.map.PoiSearchActivity_Drink"
+            android:label="@string/title_activity_xihucuyu" >
+        </activity>
+        <activity
+            android:name="com.search.map.PoiSearchActivity_Hotel"
+            android:label="@string/title_activity_xihucuyu" >
+        </activity>
+        <activity
+            android:name="com.search.map.PoiSearchActivity_Restaurant"
+            android:label="@string/title_activity_xihucuyu" >
+        </activity>
+        <activity
+            android:name="com.search.map.PoiSearchActivity_snack"
+            android:label="@string/title_activity_xihucuyu" >
+        </activity>
+        <activity
+            android:name="com.zxing.activity.CaptureActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:windowSoftInputMode="stateAlwaysHidden" >
+        </activity>
+        <activity
+            android:name="com.nian.preferential.Xx"
+            android:label="@string/title_activity_xx" >
+        </activity>
+        <activity
+            android:name="com.nian.preferential.Message"
+            android:label="@string/title_activity_message" >
+        </activity>
+        <activity
+            android:name="com.nian.preferential.Shoucang"
+            android:label="@string/title_activity_shoucang" >
+        </activity>
+        <activity
+            android:name="com.nian.preferential.TestListView"
+            android:label="@string/title_activity_shoucang" >
+        </activity>
+        <activity
+            android:name="com.nian.preferential.ProgressBar"
+            android:label="@string/title_activity_progress_bar" >
+        </activity>
+
+        <service
+            android:name="com.baidu.location.f"
+            android:enabled="true"
+            android:process=":remote" >
+        </service>
+
+        <activity
+            android:name="com.jing.search.Local_set"
+            android:label="@string/title_activity_local_set" >
+        </activity>
+        <activity
+            android:name="com.nian.preferential.WebView1"
+            android:label="@string/title_activity_web_view1" >
+        </activity>
+    </application>
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <!-- 写入数据的权限 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <!-- 访问网络的权限 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- 访问精确位置的权限 -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <!-- 访问网络状态的权限 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!-- 访问WIFI网络状态的权限 -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <!-- 改变WIFI网络状态的权限 -->
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <!-- 读写存储卡的权限 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!-- 读取电话状态的权限 -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.BAIDU_LOCATION_SERVICE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.INTERNET" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION" >
+    </uses-permission>
+    <!-- <uses-permission android:name="android.permission.WRITE_APN_SETTINGS"></uses-permission> -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" >
+    </uses-permission>
+    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_GPS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <!-- SDK1.5需要android.permission.GET_TASKS权限判断本程序是否为当前运行的应用? -->
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.CAMERA" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.RECORD_AUDIO" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <!-- 来电消音 -->
+    <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="false"
+        android:resizeable="true"
+        android:smallScreens="true" />
+
+</manifest>

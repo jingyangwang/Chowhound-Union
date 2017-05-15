@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/detail_bg"
+    android:orientation="vertical"
+    android:layout_marginTop="20dip"
+    android:layout_marginLeft="10dip"
+    android:layout_marginRight="10dip"
+   >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:layout_marginLeft="10dip"
+        android:src="@drawable/chihuo" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_marginTop="10dip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/listline" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:text="太极明虾"
+        android:textColor="#000000"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ff0000"
+        android:layout_marginLeft="15dip"
+        android:textSize="12sp"
+        android:text="闽菜" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:text="详细制作方法"
+        android:textSize="18sp"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" 
+
+ 太极明虾的做法步骤\n
+【本做法用到的全部食材】\n
+ 原料  明虾12只，肥膘肉125克，地栗100克，面包6片。\n
+调料  葱末、姜末。精盐、味精、绍酒、香油各少许，色拉油500克。\n
+1、将明虾去头、去壳（留尾壳），去除肠泥、洗净，一切两段，前段虾肉与肥膘、地栗一起斩成细泥，放入碗中，加入面粉、味精、葱末、姜末、香油拌匀，再将带尾壳的一段剖成两片，卷拢，尾巴朝外，拼成银元大小的圆坯（12块）备用。\n
+2、将面包片修成银元大小的块（12块），每块面包上放入虾尾肉卷，再将虾泥分别摊放在面包块上抹平，拼成太极状，然后挂匀蛋白泡粉糊，下入热油中炸成金黄色，取出，整齐地排放入盘中即成。\n
+        " 
+        android:textColor="#000000"
+        android:textSize="15sp"
+        />
+
+      <ImageView   android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/line_d_2" />
+
+       <ImageView android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/line_d_1" />
+ 
+       <ImageButton  android:id="@+id/bus_info_detail_but"
+        android:layout_width="fill_parent"
+        android:layout_height="40dip" 
+        android:background="#00000000"
+        android:src="@drawable/arrow_down" />
+        <TextView  android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="10dip"
+	        android:layout_marginBottom="10dip"
+	        android:text="@string/detail_explain" 
+	        android:textColor="#000000"
+	        android:textSize="15sp" 
+	        android:id="@+id/bus_info_explor"
+	        android:visibility="gone"  />
+     
+</LinearLayout>

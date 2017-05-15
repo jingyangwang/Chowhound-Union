@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/back_color"
+    android:orientation="vertical"
+   >
+   <!-- tital -->
+   <TextView android:id="@+id/bus_info_tital" 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        style="@style/top_text_style"
+        android:text="尚未开通"
+     />
+     <ScrollView android:id="@+id/scrollView" 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"> 
+
+	   <RelativeLayout
+	       android:layout_width="fill_parent"
+	       android:layout_height="fill_parent" >
+	       <include android:id="@+id/info_detial" layout="@layout/swkt"/>
+          <!-- fdkjghdfkghsl;dfkjg sldfjkg sldf;kghl sfk;hj sl;fhjsfklhj l;dfkh sfl'kg kl; -->
+	
+	   </RelativeLayout>
+
+    </ScrollView> 
+   
+</LinearLayout>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/detail_bg"
+    android:orientation="vertical"
+    android:layout_marginTop="20dip"
+    android:layout_marginLeft="10dip"
+    android:layout_marginRight="10dip"
+   >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:layout_marginLeft="10dip"
+        android:src="@drawable/chihuo" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_marginTop="10dip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/listline" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:text="宫保鸡丁"
+        android:textColor="#000000"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ff0000"
+        android:layout_marginLeft="15dip"
+        android:textSize="12sp"
+        android:text="川菜" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:text="详细制作方法"
+        android:textSize="18sp"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" 
+
+宫保鸡丁的做法步骤\n
+1.姜、蒜去皮切片\n
+2.葱白切成颗粒状 \n
+3.干辣椒去蒂去籽，切成1厘米长的节\n
+4.鸡肉拍松，再用刀改成小丁\n
+5.用盐、酱油、料酒红薯淀粉拌匀上浆去腥\n
+6.花生米洗净，放入油锅炸脆\n
+7.捞出冷却。火候控制好，炸过火了花生吃起来有一些苦味。(花生可以去皮，也可以不去，花生的红皮有很好的补血功效，对人体很有好处，但为了做菜好看，很多朋友都去掉了那层红皮。）\n
+8.烧热锅，下油，烧热将鸡肉入锅炒到变色捞出\n
+9.再起锅放油烧热后将姜，蒜\n
+10.炒出香味后放入干辣椒炒至棕红色\n
+11.再下花椒\n
+12.随即下入炒变色的鸡丁炒散\n
+13.加入调味汁翻炒\n
+14.起锅前倒入炸好的花生米，翻炒收汁起锅装盘\n
+
+
+
+        " 
+        android:textColor="#000000"
+        android:textSize="15sp"
+        />
+
+      <ImageView   android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/line_d_2" />
+
+       <ImageView android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/line_d_1" />
+ 
+       <ImageButton  android:id="@+id/bus_info_detail_but"
+        android:layout_width="fill_parent"
+        android:layout_height="40dip" 
+        android:background="#00000000"
+        android:src="@drawable/arrow_down" />
+        <TextView  android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="10dip"
+	        android:layout_marginBottom="10dip"
+	        android:text="@string/detail_explain" 
+	        android:textColor="#000000"
+	        android:textSize="15sp" 
+	        android:id="@+id/bus_info_explor"
+	        android:visibility="gone"  />
+     
+</LinearLayout>

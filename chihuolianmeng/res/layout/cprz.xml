@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/detail_bg"
+    android:orientation="vertical"
+    android:layout_marginTop="20dip"
+    android:layout_marginLeft="10dip"
+    android:layout_marginRight="10dip"
+   >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:layout_marginLeft="10dip"
+        android:src="@drawable/chihuo" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_marginTop="10dip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/listline" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:text="脆皮乳猪"
+        android:textColor="#000000"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ff0000"
+        android:layout_marginLeft="15dip"
+        android:textSize="12sp"
+        android:text="粤菜" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:text="详细制作方法"
+        android:textSize="18sp"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" 
+
+ 脆皮乳猪的做法步骤\n
+脆皮乳猪特点是造型生动，色泽红润，皮脆肉香，入口松化，肥肉不腻，瘦肉不柴，鲜美可口，驰名中外。\n
+1、原料\n
+乳香猪1只。\n
+2、辅料\n
+食盐75克、干酱50克、白糖150克、南味豆腐乳50克、芝麻酱25克、五香粉7.5克、葱末、蒜泥、麦芽糖各少许。\n
+3、制作\n
+①选用符合卫生检验要求的重5000～6000克，皮薄、体躯丰满的小猪，作为加工的原料。\n
+②小猪经屠杀、放血、褪毛、去内脏、清洗干净，制成猪全净膛。\n
+③猪胴体从背部内侧接骨处顺脊骨劈开，不要劈破表皮，要保持外形完整。再除去板油，同时割去股骨部位最肥厚处的部分瘦肉，再用清水彻底清洗干净，沥干水。\n
+④五香粉炒熟，拌入食盐，均匀地涂抹在乳猪的腹腔内，腌制10分钟，然后再涂上白糖、芝麻酱、南味豆腐乳、蒜泥、葱末等混拌酱料。\n
+⑤涂好的乳猪体用特制的长叉从后腿至嘴穿过，再用70℃的热水烫皮，晾干水分。\n
+⑥晾干的乳猪体表涂抹上麦芽糖溶液，挂在通风处，吹干表皮。\n
+⑦吹干表皮的乳猪进行烤制，其法有两种：\n
+a、明炉烤制。铁制长方形的烤炉，把炉膛烧红，放上叉好的乳猪，在火上烤制。先烤猪的内侧胸腹部边缘部分。猪的全身特别是脖颈和腰部，须针刺排除水分，同时还要进行刷油，将体内外经烤渗出的油脂擦去或刷平，以免流在肉或皮上形成痕迹，影响外观。\n
+b、暗炉烤制。先将炉内烧至高温，将乳猪胴体再放入炉腔内，烤约30分钟左右，在猪皮开始变色时取出针刺，并注意刷匀渗出的油脂，再烘烤20～30分钟即成。\n
+        " 
+        android:textColor="#000000"
+        android:textSize="15sp"
+        />
+
+      <ImageView   android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/line_d_2" />
+
+       <ImageView android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/line_d_1" />
+ 
+       <ImageButton  android:id="@+id/bus_info_detail_but"
+        android:layout_width="fill_parent"
+        android:layout_height="40dip" 
+        android:background="#00000000"
+        android:src="@drawable/arrow_down" />
+        <TextView  android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="10dip"
+	        android:layout_marginBottom="10dip"
+	        android:text="@string/detail_explain" 
+	        android:textColor="#000000"
+	        android:textSize="15sp" 
+	        android:id="@+id/bus_info_explor"
+	        android:visibility="gone"  />
+     
+</LinearLayout>

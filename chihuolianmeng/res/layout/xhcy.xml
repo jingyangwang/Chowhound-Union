@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/detail_bg"
+    android:orientation="vertical"
+    android:layout_marginTop="20dip"
+    android:layout_marginLeft="10dip"
+    android:layout_marginRight="10dip"
+   >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:layout_marginLeft="10dip"
+        android:src="@drawable/chihuo" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_marginTop="10dip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/listline" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:text="西湖醋鱼"
+        android:textColor="#000000"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ff0000"
+        android:layout_marginLeft="15dip"
+        android:textSize="12sp"
+        android:text="浙菜" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:text="详细制作方法"
+        android:textSize="18sp"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" 
+        
+ 西湖醋鱼的做法步骤\n
+1、一定选草鱼：不要秃子当和尚，将究材料，千万不能到市场上一转悠，拿一条鲤鱼；或鲢鱼；鲫鱼回来。\n 
+2、草鱼1.5斤最合适：这一个细节是最难的，现在的草鱼草鱼都喂饲料，不发愁买不到个头大的，你到市场上一看，全是3斤左右的，养鱼个体户，从不把1.5斤的草鱼，拿上市场去卖。我买到的这条草鱼，摊主告诉我就纯属漏网之鱼。那还1.6斤呢。超过1.5斤的草鱼，第一肉不嫩，不容易烫熟。第二我们家里的锅和鱼盘放不下啊！\n 
+3、不能清水煮鱼：锅中放入清水后，要放入葱姜片；料酒，才能去腥。\n 
+4、鱼入锅时水要开：要等锅中水大开时，再下入鱼片，不能温水下鱼。\n 
+5、雄片先入水：带骨的一片叫雄片，不带骨的叫雌片。锅中水大开时，先入雄片，后入雌片。\n 
+6、鱼入锅后要浸熟：开水下锅后，千万再不能让水煮开了，要浇入几次凉水，鱼要浸熟，而不是煮熟。\n 
+7、浸烫时间不要短：鱼在锅中要浸烫十分钟，别以为烫一会就熟了。\n 
+8、煮鱼汤汁不要扔：煮鱼的汤汁用来做芡汁，留出250克备用。\n 
+9、不放盐：就吃它的酱油味，1.5斤的鱼，250克鱼汤比例如下：醋50克，糖60克，酱油70克。\n 
+10、最后放姜末：鱼捞出勾芡浇汁后，再撒姜末。不是先撒姜末。\n 
+        " 
+        android:textColor="#000000"
+        android:textSize="15sp"
+        />
+
+      <ImageView   android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/line_d_2" />
+
+       <ImageView android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/line_d_1" />
+ 
+       <ImageButton  android:id="@+id/bus_info_detail_but"
+        android:layout_width="fill_parent"
+        android:layout_height="40dip" 
+        android:background="#00000000"
+        android:src="@drawable/arrow_down" />
+        <TextView  android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="10dip"
+	        android:layout_marginBottom="10dip"
+	        android:text="@string/detail_explain" 
+	        android:textColor="#000000"
+	        android:textSize="15sp" 
+	        android:id="@+id/bus_info_explor"
+	        android:visibility="gone"  />
+     
+</LinearLayout>

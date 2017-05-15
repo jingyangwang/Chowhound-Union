@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/detail_bg"
+    android:orientation="vertical"
+    android:layout_marginTop="20dip"
+    android:layout_marginLeft="10dip"
+    android:layout_marginRight="10dip"
+   >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:layout_marginLeft="10dip"
+        android:src="@drawable/chihuo" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_marginTop="10dip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/listline" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:text="叫花鸡"
+        android:textColor="#000000"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ff0000"
+        android:layout_marginLeft="15dip"
+        android:textSize="12sp"
+        android:text="苏菜" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:text="详细制作方法"
+        android:textSize="18sp"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" 
+看过“射雕英雄传”的朋友，都还记得这么一幕吧。丐帮帮主洪七公接过“俏黄蓉”给做的叫花鸡，风卷残云的吃得干干净净，一面吃，一面大加赞美 ，好吃。就是为了这个能吃到这个叫花鸡，才肯教 “傻郭靖”武功的情节。虽然美食的诱惑只是一个方面，但这用泥巴裹住的鸡肉到底是怎样的滋味儿，竟然让食尽天下美食的洪七公如此赞叹不已，都很让人好奇。 
+其实 “叫花鸡”原出于江苏常熟，是一些穷苦难民（或叫要饭的）偷来的鸡，用泥巴把鸡包起来，架火烧泥巴，泥烧热了鸡也就熟了，这是一道登不了雅之堂的菜。据说，当年乾隆皇帝微服出访江南，不小心流落荒野。有一个叫花子看他可怜，便把自认为美食的“叫化鸡”送给他吃。乾隆困饿交加，自然觉得这鸡异常好吃。吃毕，便问其名，叫化头不好意思说这鸡叫“叫花鸡”，就胡吹这鸡叫“富贵鸡”。乾隆对这鸡赞不绝口。叫花子事后才知道这个流浪汉就是当今皇上。这“叫花鸡”也因为皇上的金口一开，成了“富贵鸡”。流传至今，也成了一道登上大雅之堂的名菜。
+前段时间妈妈给了我两张荷叶，一直再想着用它做啥，突然想着不如就做叫花鸡吧。说起来我们自己在家做也很简单，可以用白酒和成的面团替代了在都市很难寻觅的黄泥，仅需三步：一腌二裹三烤，最后敲开这白酒面团，拨去荷叶用两只筷子轻轻一挑，那酥香嫩滑的鸡肉，光是看着就让人心驰神往
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 叫花鸡的做法步骤\n
+1、先用刀背将鸡腿的骨头敲断， 以便折叠成型；\n
+2、在鸡中加入葱， 姜， 蒜， 盐， 蚝油， 料酒， 胡椒等调味料；\n
+3、 将调料料按摩揉搓到鸡肉中；\n
+4、 将花椒煸炒出香味；\n
+5、 将煸炒出香味的花椒用擀面杖碾碎；\n
+6、 再加入鸡中一起腌制， 用保鲜膜覆盖好， 放入冰箱中， 腌制一个小时以上， 中间拿出来翻动一下；\n
+7、将干荷叶用冷水泡上一会儿；\n
+8、用冷水和白酒一起和面；\n
+9、将面和成软硬适中的面团；\n
+10、再在腌好的鸡上抹层五香粉和胡椒；\n
+11、将洋葱， 香菇切成丝备用，丝放入腌个鸡的剩余汁料中充分混合；\n
+12、 将混合好的香菇丝和洋葱丝， 姜， 蒜等其他调料塞入鸡腹中；\n
+13、放在泡过水的荷叶中，将它包裹起来；  \n
+14、将面团擀成一张大圆片擀成大小合适的圆片， 将荷叶包裹的鸡放在中间；\n
+15、再用面皮包裹起来，放在刷了层油的烤盘中；\n
+16、 预热160度， 中下层， 烤80分钟，. 敲开面皮，揭去荷叶，美味的叫花鸡就摆在眼前；敲开面皮，.揭去荷叶；\n
+17、中间破上一刀， 腹中内容多多；\n
+18、美味的叫花鸡就摆在眼前；\n
+     " 
+        android:textColor="#000000"
+        android:textSize="15sp"
+        />
+
+      <ImageView   android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/line_d_2" />
+
+       <ImageView android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/line_d_1" />
+ 
+       <ImageButton  android:id="@+id/bus_info_detail_but"
+        android:layout_width="fill_parent"
+        android:layout_height="40dip" 
+        android:background="#00000000"
+        android:src="@drawable/arrow_down" />
+        <TextView  android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="10dip"
+	        android:layout_marginBottom="10dip"
+	        android:text="@string/detail_explain" 
+	        android:textColor="#000000"
+	        android:textSize="15sp" 
+	        android:id="@+id/bus_info_explor"
+	        android:visibility="gone"  />
+     
+</LinearLayout>
